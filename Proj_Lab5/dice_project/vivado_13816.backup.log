@@ -1,0 +1,243 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 12 12:03:36 2021
+# Process ID: 13816
+# Current directory: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10364 C:\Users\timim\OneDrive - FH JOANNEUM\1STM\Digital_Electronics\Lab5_Dice\Proj_Lab5\dice_project\dice_project.xpr
+# Log file: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/vivado.log
+# Journal file: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project'
+INFO: [Project 1-313] Project file moved from 'C:/Users/muresant18/OneDrive - FH JOANNEUM/Dokumente/timi/DE/Lab5/dice_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'dice_project.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:16 . Memory (MB): peak = 1024.621 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'dice_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dice_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dice_main
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_0000_0001' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:35]
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_0000_0001' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:72]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/ste_debounce.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ste_debounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sim_1/new/dice_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dice_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+"xelab -wto a2efa7b415614ac39c6ea4870bc716ed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dice_tb_behav xil_defaultlib.dice_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2efa7b415614ac39c6ea4870bc716ed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dice_tb_behav xil_defaultlib.dice_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 4 for port 'deb_rise_i' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:60]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 4 for port 'deb_fall_i' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:61]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ste_debounce
+Compiling module xil_defaultlib.dice_main
+Compiling module xil_defaultlib.dice_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dice_tb_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1024.621 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "dice_tb_behav -key {Behavioral:sim_1:Functional:dice_tb} -tclbatch {dice_tb.tcl} -view {{C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1024.621 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'dice_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 1024.621 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ms
+run: Time (s): cpu = 00:00:47 ; elapsed = 00:00:41 . Memory (MB): peak = 1024.621 ; gain = 0.000
+save_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1608.645 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'dice_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dice_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dice_main
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_0000_0001' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:35]
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_0000_0001' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:72]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/ste_debounce.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ste_debounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sim_1/new/dice_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dice_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+"xelab -wto a2efa7b415614ac39c6ea4870bc716ed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dice_tb_behav xil_defaultlib.dice_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2efa7b415614ac39c6ea4870bc716ed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dice_tb_behav xil_defaultlib.dice_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'deb_rise_i' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:60]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'deb_fall_i' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:61]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ste_debounce(CNT_W=5)
+Compiling module xil_defaultlib.dice_main
+Compiling module xil_defaultlib.dice_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dice_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "dice_tb_behav -key {Behavioral:sim_1:Functional:dice_tb} -tclbatch {dice_tb.tcl} -view {{C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1608.645 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'dice_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1608.645 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ms
+run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1608.645 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'dice_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dice_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dice_main
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_0000_0001' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:35]
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_0000_0001' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:72]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/ste_debounce.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ste_debounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sim_1/new/dice_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dice_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+"xelab -wto a2efa7b415614ac39c6ea4870bc716ed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dice_tb_behav xil_defaultlib.dice_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2efa7b415614ac39c6ea4870bc716ed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dice_tb_behav xil_defaultlib.dice_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'deb_rise_i' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:60]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'deb_fall_i' [C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv:61]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ste_debounce(CNT_W=5)
+Compiling module xil_defaultlib.dice_main
+Compiling module xil_defaultlib.dice_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dice_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "dice_tb_behav -key {Behavioral:sim_1:Functional:dice_tb} -tclbatch {dice_tb.tcl} -view {{C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1608.645 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'dice_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1608.645 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1608.645 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ms
+run: Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 1608.645 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 12 12:31:06 2021...

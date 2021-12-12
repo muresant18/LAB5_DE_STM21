@@ -1,0 +1,112 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 12 12:33:25 2021
+# Process ID: 10488
+# Current directory: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8132 C:\Users\timim\OneDrive - FH JOANNEUM\1STM\Digital_Electronics\Lab5_Dice\Proj_Lab5\dice_project\dice_project.xpr
+# Log file: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/vivado.log
+# Journal file: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+save_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+restart
+run 50 ms
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+restart
+run 50 ms
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+restart
+run 50 ms
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+restart
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+restart
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+run 10 ms
+restart
+run 1 ms
+save_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+run 1 ms
+restart
+run 1 ms
+save_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+run 1 ms
+close_sim
+launch_simulation
+open_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+source dice_tb.tcl
+run 1 ms
+restart
+run 50 ms
+save_wave_config {C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_tb_behav.wcfg}
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation landscape C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/schematic.pdf
+write_schematic -format pdf -orientation landscape C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/schematic2.pdf
+write_schematic -format pdf -orientation portrait -scope visible C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/schematic3.pdf
+write_schematic -format pdf -orientation portrait -scope visible C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/schematic4.pdf
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+write_schematic -format pdf -orientation portrait C:/STM1/DE_c/Schematic_synth.pdf
+write_schematic -format pdf -orientation landscape C:/STM1/DE_c/schematic_synth.pdf
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation landscape C:/STM1/DE_c/schematic_before_synth.pdf
+close_sim

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 12 13:42:52 2021
+# Process ID: 9076
+# Current directory: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.runs/synth_1
+# Command line: vivado.exe -log dice_main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dice_main.tcl
+# Log file: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.runs/synth_1/dice_main.vds
+# Journal file: C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dice_main.tcl -notrace

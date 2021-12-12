@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sim_1/new/dice_tb.sv,1639309205,systemVerilog,,,,dice_tb,,,,,,,,
+C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sources_1/new/dice_main.sv,1639311089,systemVerilog,,C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/ste_debounce.sv,,dice_main,,,,,,,,
+C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/ste_debounce.sv,1639309708,systemVerilog,,C:/Users/timim/OneDrive - FH JOANNEUM/1STM/Digital_Electronics/Lab5_Dice/Proj_Lab5/dice_project/dice_project.srcs/sim_1/new/dice_tb.sv,,ste_debounce,,,,,,,,
